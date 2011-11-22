@@ -1,0 +1,258 @@
+Circuit: * Z:\home\esalazar\spice\analog\ad8221.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+Gmin = 1.67772
+vernier = 0.25
+vernier = 0.125
+Gmin = 1.24103
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 1.19339
+vernier = 0.0416667
+vernier = 0.0208333
+vernier = 0.0277778
+vernier = 0.0138889
+Gmin = 1.15876
+vernier = 0.0185185
+vernier = 0.00925925
+Gmin = 1.13229
+vernier = 0.0123457
+vernier = 0.00617283
+vernier = 0.00823044
+Gmin = 1.1164
+vernier = 0.00411522
+vernier = 0.00548696
+Gmin = 1.10612
+vernier = 0.00731595
+vernier = 0.00365797
+Gmin = 1.09655
+vernier = 0.0048773
+vernier = 0.00243865
+vernier = 0.00325153
+Gmin = 1.09055
+vernier = 0.00433537
+vernier = 0.00216769
+Gmin = 1.08496
+vernier = 0.00289025
+vernier = 0.00144512
+Gmin = 1.08026
+vernier = 0.00192683
+vernier = 0.00256911
+vernier = 0.00128455
+Gmin = 1.07641
+vernier = 0.00171274
+Gmin = 1.07227
+vernier = 0.00228365
+vernier = 0.00114182
+vernier = 0.00152243
+Gmin = 1.06952
+vernier = 0.00202991
+vernier = 0.00101495
+Gmin = 1.06695
+vernier = 0.00135327
+vernier = 0.00180436
+vernier = 0.000902182
+Gmin = 1.0643
+vernier = 0.00120291
+vernier = 0.00160388
+Gmin = 1.06124
+vernier = 0.000801939
+vernier = 0.00106925
+Gmin = 1.05947
+vernier = 0.00142567
+vernier = 0.000712834
+vernier = 0.000950445
+Gmin = 1.05771
+vernier = 0.00126726
+vernier = 0.00063363
+Gmin = 1.05595
+vernier = 0.00084484
+vernier = 0.00112645
+vernier = 0.000563226
+Gmin = 1.05428
+vernier = 0.000750968
+Gmin = 1.05255
+vernier = 0.00100129
+vernier = 0.000500645
+vernier = 0.000667527
+Gmin = 1.05134
+vernier = 0.000890036
+vernier = 0.000445018
+Gmin = 1.05018
+vernier = 0.000593357
+vernier = 0.000791143
+vernier = 0.000593357
+Gmin = 1.04897
+vernier = 0.000791143
+vernier = 0.000593357
+Gmin = 1.04772
+vernier = 0.000445018
+vernier = 0.000593357
+vernier = 0.000445018
+Gmin = 1.04706
+vernier = 0.000593357
+vernier = 0.000445017
+Gmin = 1.04613
+vernier = 0.000593356
+vernier = 0.000445017
+vernier = 0.000593356
+vernier = 0.000445017
+Gmin = 1.04544
+vernier = 0.000593356
+vernier = 0.000445017
+Gmin = 1.04451
+vernier = 0.000593356
+vernier = 0.000445017
+vernier = 0.000593356
+vernier = 0.000445017
+Gmin = 1.04381
+Singular matrix:  Check nodes v- and v:u1:oso#branch
+   Iteration No. 4
+Gmin = 0
+Singular matrix:  Check nodes v- and v:u1:oso#branch
+   Iteration No. 1
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 28.0303%
+vernier = 0.0625
+Source Step = 29.1667%
+Source Step = 31.0606%
+Source Step = 32.9545%
+Source Step = 34.8485%
+Source Step = 36.7424%
+vernier = 0.09375
+Source Step = 39.4886%
+Source Step = 42.3295%
+Source Step = 45.1705%
+Source Step = 48.0114%
+Source Step = 50.8523%
+vernier = 0.140625
+Source Step = 52.4858%
+Source Step = 53.5511%
+Source Step = 54.6165%
+Source Step = 55.6818%
+Source Step = 56.7472%
+vernier = 0.0527344
+Source Step = 58.0788%
+Source Step = 59.6768%
+Source Step = 61.2749%
+Source Step = 62.8729%
+Source Step = 64.4709%
+vernier = 0.0791016
+Source Step = 66.3885%
+Source Step = 68.7855%
+Source Step = 71.1825%
+Source Step = 73.5795%
+Source Step = 75.9766%
+vernier = 0.118652
+Source Step = 77.8343%
+Source Step = 78.7331%
+Source Step = 79.632%
+Source Step = 80.5309%
+Source Step = 81.4298%
+vernier = 0.0444946
+Source Step = 82.3736%
+Source Step = 83.7219%
+Source Step = 85.0702%
+Source Step = 86.4186%
+Source Step = 87.7669%
+Source Step = 88.8793%
+Source Step = 89.2163%
+Source Step = 89.5534%
+Source Step = 89.8905%
+Source Step = 90.2276%
+Source Step = 90.5647%
+vernier = 0.0166855
+Source Step = 91.0703%
+Source Step = 91.5759%
+Source Step = 92.0815%
+Source Step = 92.5871%
+Source Step = 93.0928%
+vernier = 0.0250282
+Source Step = 93.8259%
+Source Step = 94.5843%
+Source Step = 95.3428%
+Source Step = 96.1012%
+Source Step = 96.5563%
+Source Step = 96.7459%
+Source Step = 96.9355%
+Source Step = 97.1251%
+Source Step = 97.3147%
+vernier = 0.00938559
+Source Step = 97.5327%
+Source Step = 97.8172%
+Source Step = 98.1016%
+Source Step = 98.386%
+Source Step = 98.6704%
+vernier = 0.0140784
+Source Step = 98.9832%
+Source Step = 99.4099%
+Source Step = 99.8365%
+Source Step = 99.9778%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source stepping aborted.
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 99.7576%
+vernier = 0.0625
+Source Step = 99.0207%
+Source Step = 99.0503%
+Source Step = 99.0799%
+Source Step = 99.1095%
+Source Step = 99.1391%
+Source Step = 99.1687%
+Source Step = 99.1983%
+Source Step = 99.2279%
+Source Step = 99.2575%
+Source stepping aborted.
+Pseudo Transient failed in finding the operating point.
+Trouble finding operating point....skipping operating point for Transient analysis.
+Changing Tseed to 9.76562e-008
+Changing Tseed to 9.76562e-010
+
+Date: Thu Nov 10 11:18:36 2011
+Total elapsed time: 30.870 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 1409744
+traniter = 1237809
+tranpoints = 414792
+accept = 301513
+rejected = 120146
+matrix size = 98
+fillins = 252
+solver = Normal
+Thread vector: 10.9/8.6[2] 2.3/1.8[2] 2.7/3.1[1] 0.3/1.1[1]  2592/500
+Matrix Compiler1: 15.5 KB object code size  4.0/1.5/[1.3]
+Matrix Compiler2: 11.2 KB object code size  1.4/2.1/[1.1]
+
+

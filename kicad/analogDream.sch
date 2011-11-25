@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 24 Nov 2011 08:14:56 PM MST
+EESchema Schematic File Version 2  date Thu 24 Nov 2011 08:57:55 PM MST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,9 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ad620
-LIBS:analog-devices
-LIBS:ad8221
 LIBS:analogDream-cache
 EELAYER 24  0
 EELAYER END
@@ -46,6 +43,62 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L R R?
+U 1 1 4ECF1235
+P 5750 3400
+F 0 "R?" H 5750 3500 50  0000 C CNN
+F 1 "100" V 5750 3350 50  0000 C CNN
+	1    5750 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 4ECF11D2
+P 5650 3400
+F 0 "R?" H 5650 3500 50  0000 C CNN
+F 1 "599" V 5650 3350 50  0000 C CNN
+	1    5650 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 4ECF1146
+P 5550 3400
+F 0 "R?" H 5550 3500 50  0000 C CNN
+F 1 "1k" V 5550 3350 50  0000 C CNN
+	1    5550 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 4ECF10D8
+P 5450 3400
+F 0 "R?" H 5450 3500 50  0000 C CNN
+F 1 "5.49k" V 5450 3350 50  0000 C CNN
+	1    5450 3400
+	-1   0    0    1   
+$EndComp
+Connection ~ 5750 3650
+Wire Wire Line
+	5850 3650 5850 3100
+Wire Wire Line
+	5850 3650 4950 3650
+Connection ~ 5550 3650
+Connection ~ 5350 3650
+Wire Wire Line
+	4950 3650 4950 1800
+Wire Wire Line
+	4950 1800 5100 1800
+Wire Wire Line
+	5650 3150 5650 3100
+Wire Wire Line
+	5450 3150 5450 3100
+Wire Wire Line
+	5250 3150 5250 3100
+Connection ~ 5650 2300
+Connection ~ 5450 2300
+Connection ~ 5250 2300
 Wire Wire Line
 	6250 2000 6250 1900
 Wire Wire Line
@@ -102,6 +155,51 @@ Wire Wire Line
 	6450 1950 6450 1800
 Wire Wire Line
 	6450 1800 6100 1800
+Wire Wire Line
+	5100 1900 5000 1900
+Wire Wire Line
+	5000 1900 5000 2300
+Connection ~ 5350 2300
+Connection ~ 5550 2300
+Wire Wire Line
+	5000 2300 5850 2300
+Connection ~ 5750 2300
+Wire Wire Line
+	5350 3150 5350 3100
+Wire Wire Line
+	5550 3150 5550 3100
+Wire Wire Line
+	5750 3150 5750 3100
+Connection ~ 5250 3650
+Connection ~ 5450 3650
+Connection ~ 5650 3650
+$Comp
+L R R?
+U 1 1 4ECF0EF7
+P 5350 3400
+F 0 "R?" H 5350 3500 50  0000 C CNN
+F 1 "12.4k" V 5350 3350 50  0000 C CNN
+	1    5350 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 4ECF0EEF
+P 5250 3400
+F 0 "R?" H 5250 3500 50  0000 C CNN
+F 1 "499k" V 5250 3350 50  0000 C CNN
+	1    5250 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_7X2 P?
+U 1 1 4ECF0EB2
+P 5550 2700
+F 0 "P?" H 5550 3100 60  0000 C CNN
+F 1 "CONN_7X2" V 5550 2700 60  0000 C CNN
+	1    5550 2700
+	0    1    1    0   
+$EndComp
 $Comp
 L GND #PWR01
 U 1 1 4ECF0714

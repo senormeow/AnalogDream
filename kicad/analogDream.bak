@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 24 Nov 2011 08:13:15 PM MST
+EESchema Schematic File Version 2  date Thu 24 Nov 2011 08:48:58 PM MST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,9 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ad620
-LIBS:analog-devices
-LIBS:ad8221
 LIBS:analogDream-cache
 EELAYER 24  0
 EELAYER END
@@ -46,6 +43,26 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 5750 3650
+Wire Wire Line
+	5850 3650 5850 3100
+Wire Wire Line
+	5850 3650 4950 3650
+Connection ~ 5550 3650
+Connection ~ 5350 3650
+Wire Wire Line
+	4950 3650 4950 1800
+Wire Wire Line
+	4950 1800 5100 1800
+Wire Wire Line
+	5650 3150 5650 3100
+Wire Wire Line
+	5450 3150 5450 3100
+Wire Wire Line
+	5250 3150 5250 3100
+Connection ~ 5650 2300
+Connection ~ 5450 2300
+Connection ~ 5250 2300
 Wire Wire Line
 	6250 2000 6250 1900
 Wire Wire Line
@@ -102,38 +119,119 @@ Wire Wire Line
 	6450 1950 6450 1800
 Wire Wire Line
 	6450 1800 6100 1800
+Wire Wire Line
+	5100 1900 5000 1900
+Wire Wire Line
+	5000 1900 5000 2300
+Connection ~ 5350 2300
+Connection ~ 5550 2300
+Wire Wire Line
+	5000 2300 5850 2300
+Connection ~ 5750 2300
+Wire Wire Line
+	5350 3150 5350 3100
+Wire Wire Line
+	5550 3150 5550 3100
+Wire Wire Line
+	5750 3150 5750 3100
+Connection ~ 5250 3650
+Connection ~ 5450 3650
+Connection ~ 5650 3650
 $Comp
-L GND #PWR?
+L R R?
+U 1 1 4ECF0F84
+P 5750 3400
+F 0 "R?" H 5750 3500 50  0000 C CNN
+F 1 "1k" V 5750 3400 50  0000 C CNN
+	1    5750 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 4ECF0F02
+P 5650 3400
+F 0 "R?" H 5650 3500 50  0000 C CNN
+F 1 "1k" V 5650 3400 50  0000 C CNN
+	1    5650 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 4ECF0EFF
+P 5550 3400
+F 0 "R?" H 5550 3500 50  0000 C CNN
+F 1 "1k" V 5550 3400 50  0000 C CNN
+	1    5550 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 4ECF0EFD
+P 5450 3400
+F 0 "R?" H 5450 3500 50  0000 C CNN
+F 1 "1k" V 5450 3400 50  0000 C CNN
+	1    5450 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 4ECF0EF7
+P 5350 3400
+F 0 "R?" H 5350 3500 50  0000 C CNN
+F 1 "1k" V 5350 3400 50  0000 C CNN
+	1    5350 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 4ECF0EEF
+P 5250 3400
+F 0 "R?" H 5250 3500 50  0000 C CNN
+F 1 "1k" V 5250 3400 50  0000 C CNN
+	1    5250 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_7X2 P?
+U 1 1 4ECF0EB2
+P 5550 2700
+F 0 "P?" H 5550 3100 60  0000 C CNN
+F 1 "CONN_7X2" V 5550 2700 60  0000 C CNN
+	1    5550 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR01
 U 1 1 4ECF0714
 P 6250 2000
-F 0 "#PWR?" H 6250 2000 30  0001 C CNN
+F 0 "#PWR01" H 6250 2000 30  0001 C CNN
 F 1 "GND" H 6250 1930 30  0001 C CNN
 	1    6250 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR?
+L +12V #PWR02
 U 1 1 4ECF06E1
 P 6100 1550
-F 0 "#PWR?" H 6100 1500 20  0001 C CNN
+F 0 "#PWR02" H 6100 1500 20  0001 C CNN
 F 1 "+12V" H 6100 1650 30  0000 C CNN
 	1    6100 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L -12V #PWR?
+L -12V #PWR03
 U 1 1 4ECF06DD
 P 6100 2100
-F 0 "#PWR?" H 6100 2230 20  0001 C CNN
+F 0 "#PWR03" H 6100 2230 20  0001 C CNN
 F 1 "-12V" H 6100 2200 30  0000 C CNN
 	1    6100 2100
 	-1   0    0    1   
 $EndComp
 $Comp
-L AD8221 U?
+L AD8221 U3
 U 1 1 4ECF06BF
 P 5600 1850
-F 0 "U?" H 5600 2100 60  0000 C CNN
+F 0 "U3" H 5600 2100 60  0000 C CNN
 F 1 "AD8221" H 5600 1600 60  0000 C CNN
 	1    5600 1850
 	1    0    0    -1  
@@ -152,10 +250,10 @@ F 1 "4.7k" V 8250 1350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR01
+L GND #PWR04
 U 1 1 4ECF0087
 P 8000 1950
-F 0 "#PWR01" H 8000 1950 30  0001 C CNN
+F 0 "#PWR04" H 8000 1950 30  0001 C CNN
 F 1 "GND" H 8000 1880 30  0001 C CNN
 	1    8000 1950
 	1    0    0    -1  
@@ -197,10 +295,10 @@ F 1 "10k" V 8750 2200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR02
+L GND #PWR05
 U 1 1 4ECEFEAE
 P 6800 2100
-F 0 "#PWR02" H 6800 2100 30  0001 C CNN
+F 0 "#PWR05" H 6800 2100 30  0001 C CNN
 F 1 "GND" H 6800 2030 30  0001 C CNN
 	1    6800 2100
 	1    0    0    -1  
@@ -233,37 +331,37 @@ F 1 "1k" V 6450 2200 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L -12V #PWR03
+L -12V #PWR06
 U 1 1 4ECEFAC2
 P 7350 2600
-F 0 "#PWR03" H 7350 2730 20  0001 C CNN
+F 0 "#PWR06" H 7350 2730 20  0001 C CNN
 F 1 "-12V" H 7350 2700 30  0000 C CNN
 	1    7350 2600
 	-1   0    0    1   
 $EndComp
 $Comp
-L -12V #PWR04
+L -12V #PWR07
 U 1 1 4ECEFAB7
 P 9400 2600
-F 0 "#PWR04" H 9400 2730 20  0001 C CNN
+F 0 "#PWR07" H 9400 2730 20  0001 C CNN
 F 1 "-12V" H 9400 2700 30  0000 C CNN
 	1    9400 2600
 	-1   0    0    1   
 $EndComp
 $Comp
-L +12V #PWR05
+L +12V #PWR08
 U 1 1 4ECEFA9C
 P 9400 1600
-F 0 "#PWR05" H 9400 1550 20  0001 C CNN
+F 0 "#PWR08" H 9400 1550 20  0001 C CNN
 F 1 "+12V" H 9400 1700 30  0000 C CNN
 	1    9400 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR06
+L +12V #PWR09
 U 1 1 4ECEFA87
 P 7350 1600
-F 0 "#PWR06" H 7350 1550 20  0001 C CNN
+F 0 "#PWR09" H 7350 1550 20  0001 C CNN
 F 1 "+12V" H 7350 1700 30  0000 C CNN
 	1    7350 1600
 	1    0    0    -1  

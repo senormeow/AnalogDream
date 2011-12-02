@@ -1,8 +1,6 @@
-update=Thu 01 Dec 2011 06:53:21 PM MST
+update=Thu 01 Dec 2011 07:21:12 PM MST
 version=1
 last_client=pcbnew
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -75,6 +73,8 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1
 [pcbnew]
 version=1
 PadDrlX=453

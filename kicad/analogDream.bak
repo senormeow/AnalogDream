@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 01 Dec 2011 07:01:32 PM MST
+EESchema Schematic File Version 2  date Thu 01 Dec 2011 07:17:35 PM MST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,6 +44,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 5600 8350
+Wire Wire Line
+	5600 8450 5600 8150
+Wire Wire Line
+	5600 8150 5450 8150
 Wire Wire Line
 	5750 7950 5450 7950
 Wire Wire Line
@@ -673,6 +678,26 @@ Wire Wire Line
 	5750 7400 5450 7400
 Wire Wire Line
 	5750 7750 5450 7750
+Wire Wire Line
+	5600 8350 5450 8350
+$Comp
+L GND #PWR?
+U 1 1 4ED83295
+P 5600 8450
+F 0 "#PWR?" H 5600 8450 30  0001 C CNN
+F 1 "GND" H 5600 8380 30  0001 C CNN
+	1    5600 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 PCGnd
+U 1 1 4ED831F6
+P 5100 8250
+F 0 "PCGnd" V 5050 8250 40  0000 C CNN
+F 1 "GND" V 5150 8250 40  0000 C CNN
+	1    5100 8250
+	-1   0    0    -1  
+$EndComp
 Text GLabel 5750 7750 2    60   Input ~ 0
 in_ch4+
 Text GLabel 5750 7950 2    60   Input ~ 0
@@ -682,7 +707,7 @@ L CONN_2 PC4
 U 1 1 4ED830CA
 P 5100 7850
 F 0 "PC4" V 5050 7850 40  0000 C CNN
-F 1 "CONN_2" V 5150 7850 40  0000 C CNN
+F 1 "Ch4" V 5150 7850 40  0000 C CNN
 	1    5100 7850
 	-1   0    0    -1  
 $EndComp
@@ -695,7 +720,7 @@ L CONN_2 PC3
 U 1 1 4ED8308C
 P 5100 7500
 F 0 "PC3" V 5050 7500 40  0000 C CNN
-F 1 "CONN_2" V 5150 7500 40  0000 C CNN
+F 1 "Ch3" V 5150 7500 40  0000 C CNN
 	1    5100 7500
 	-1   0    0    -1  
 $EndComp
@@ -708,7 +733,7 @@ L CONN_2 PC2
 U 1 1 4ED8303E
 P 5100 7150
 F 0 "PC2" V 5050 7150 40  0000 C CNN
-F 1 "CONN_2" V 5150 7150 40  0000 C CNN
+F 1 "Ch2" V 5150 7150 40  0000 C CNN
 	1    5100 7150
 	-1   0    0    -1  
 $EndComp
@@ -721,7 +746,7 @@ L CONN_2 PC1
 U 1 1 4ED82FC2
 P 5100 6800
 F 0 "PC1" V 5050 6800 40  0000 C CNN
-F 1 "CONN_2" V 5150 6800 40  0000 C CNN
+F 1 "Ch1" V 5150 6800 40  0000 C CNN
 	1    5100 6800
 	-1   0    0    -1  
 $EndComp

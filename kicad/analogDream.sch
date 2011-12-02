@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 28 Nov 2011 07:13:12 PM MST
+EESchema Schematic File Version 2  date Thu 01 Dec 2011 06:41:13 PM MST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:custom
 LIBS:analogDream-cache
 EELAYER 24  0
 EELAYER END

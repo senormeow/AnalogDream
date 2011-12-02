@@ -1,16 +1,6 @@
-update=Thu 01 Dec 2011 06:26:50 PM MST
+update=Thu 01 Dec 2011 06:53:21 PM MST
 version=1
 last_client=pcbnew
-[cvpcb]
-version=1
-NetITyp=0
-NetIExt=.net
-PkgIExt=.pkg
-NetDir=
-LibDir=
-NetType=0
-[cvpcb/libraries]
-EquName1=devcms
 [general]
 version=1
 [eeschema]
@@ -80,11 +70,16 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=custom
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
+PadDrlX=453
+PadDimH=800
+PadDimV=800
 BoardThickness=630
 SgPcb45=1
 TxtPcbV=800
@@ -110,3 +105,4 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
+LibName11=custom

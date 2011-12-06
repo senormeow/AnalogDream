@@ -1,4 +1,4 @@
-update=Thu 01 Dec 2011 07:21:12 PM MST
+update=Mon 05 Dec 2011 09:59:51 PM MST
 version=1
 last_client=pcbnew
 [eeschema]
@@ -81,13 +81,12 @@ PadDrlX=453
 PadDimH=800
 PadDimV=800
 BoardThickness=630
-SgPcb45=1
 TxtPcbV=800
 TxtPcbH=600
 TxtModV=600
 TxtModH=600
 TxtModW=120
-VEgarde=100
+VEgarde=10
 DrawLar=150
 EdgeLar=150
 TxtLar=120

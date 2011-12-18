@@ -1,45 +1,45 @@
-Cmp-Mod V01 Created by CvPcb (2011-11-27 BZR 3249)-stable date = Sat 17 Dec 2011 10:44:58 AM MST
+Cmp-Mod V01 Created by CvPcb (2011-11-27 BZR 3249)-stable date = Sat 17 Dec 2011 09:19:05 PM MST
 
 BeginCmp
 TimeStamp = /4ED43953;
 Reference = C1;
 ValeurCmp = 22u;
-IdModule  = SM1206;
+IdModule  = SM1206POL;
 EndCmp
 
 BeginCmp
 TimeStamp = /4ED4393E;
 Reference = C2;
 ValeurCmp = 22u;
-IdModule  = SM1206;
+IdModule  = SM1206POL;
 EndCmp
 
 BeginCmp
 TimeStamp = /4ED43959;
 Reference = C3;
 ValeurCmp = 22u;
-IdModule  = SM1206;
+IdModule  = SM1206POL;
 EndCmp
 
 BeginCmp
 TimeStamp = /4ED4394F;
 Reference = C4;
 ValeurCmp = 22u;
-IdModule  = SM1206;
+IdModule  = SM1206POL;
 EndCmp
 
 BeginCmp
 TimeStamp = /4ED43BFC;
 Reference = C5;
 ValeurCmp = 22u;
-IdModule  = SM1206;
+IdModule  = SM1206POL;
 EndCmp
 
 BeginCmp
 TimeStamp = /4ED43BC7;
 Reference = C6;
 ValeurCmp = 22u;
-IdModule  = SM1206;
+IdModule  = SM1206POL;
 EndCmp
 
 BeginCmp
@@ -157,7 +157,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4ED831F6;
 Reference = PC5;
-ValeurCmp = GND;
+ValeurCmp = GND_5V;
 IdModule  = TYCO_1776275-2;
 EndCmp
 
@@ -172,6 +172,20 @@ BeginCmp
 TimeStamp = /4EDD8826;
 Reference = PC7;
 ValeurCmp = out_3_4;
+IdModule  = TYCO_1776275-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EED655E;
+Reference = PC8;
+ValeurCmp = GND_AREF;
+IdModule  = TYCO_1776275-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EED65E3;
+Reference = PC9;
+ValeurCmp = -V_+V;
 IdModule  = TYCO_1776275-2;
 EndCmp
 

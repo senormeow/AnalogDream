@@ -3,7 +3,7 @@
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "(2011-11-27 BZR 3249)-stable")
+    (host_version "(2011-12-21 BZR 3253)-stable")
   )
   (resolution mil 10)
   (unit mil)
@@ -70,16 +70,6 @@
       (place P8 1800 -3025 front 0 (PN CONN_4X2))
       (place P12 1800 -2825 front 0 (PN CONN_4X2))
       (place P11 1800 -3550 front 0 (PN CONN_4X2))
-    )
-    (component PIN_ARRAY_3X1
-      (place RV1 4450 -2375 front 270 (PN 10k))
-      (place RV2 4450 -1625 front 270 (PN 10k))
-      (place RV3 4450 -2025 front 270 (PN 10k))
-      (place RV4 4450 -1275 front 270 (PN 10k))
-      (place RV5 4450 -3825 front 270 (PN 10k))
-      (place RV6 4450 -3100 front 270 (PN 10k))
-      (place RV7 4450 -3475 front 270 (PN 10k))
-      (place RV8 4450 -2750 front 270 (PN 10k))
     )
     (component "0603-RES"
       (place R74 1500 -2775 front 90 (PN 18k))
@@ -177,6 +167,16 @@
       (place C4 2575 -4325 front 270 (PN 10u))
       (place C2 3200 -4325 front 270 (PN 10u))
     )
+    (component RV2
+      (place RV1 4375 -2375 front 270 (PN 10k))
+      (place RV2 4375 -1625 front 270 (PN 10k))
+      (place RV3 4375 -2025 front 270 (PN 10k))
+      (place RV4 4375 -1275 front 270 (PN 10k))
+      (place RV5 4375 -3825 front 270 (PN 10k))
+      (place RV6 4375 -3100 front 270 (PN 10k))
+      (place RV7 4375 -3475 front 270 (PN 10k))
+      (place RV8 4375 -2750 front 90 (PN 10k))
+    )
   )
   (library
     (image "TYCO_1776275-2"
@@ -243,16 +243,6 @@
       (pin Round[A]Pad_60_mil 7 150 -50)
       (pin Round[A]Pad_60_mil 8 150 50)
     )
-    (image PIN_ARRAY_3X1
-      (outline (path signal 6  -150 -50  -150 50))
-      (outline (path signal 6  -150 50  150 50))
-      (outline (path signal 6  150 50  150 -50))
-      (outline (path signal 6  150 -50  -150 -50))
-      (outline (path signal 6  -50 50  -50 -50))
-      (pin Rect[A]Pad_60x60_mil 1 -100 0)
-      (pin Round[A]Pad_60_mil 2 0 0)
-      (pin Round[A]Pad_60_mil 3 100 0)
-    )
     (image "0603-RES"
       (outline (path signal 2.6  -7.8 -11.8  7.8 -11.8))
       (outline (path signal 2.6  7.8 -11.8  7.8 11.8))
@@ -288,6 +278,15 @@
       (outline (path signal 5  -35 45  -100 45))
       (pin Rect[T]Pad_60x80_mil 1 -65 0)
       (pin Rect[T]Pad_60x80_mil 2 65 0)
+    )
+    (image RV2
+      (outline (path signal 8  140 -15  133.1 -58.2  113.2 -97.2  82.2 -128.2  43.2 -148.1
+            0 -155  -43.2 -148.1  -82.2 -128.2  -113.2 -97.2  -133.1 -58.2
+            -140 -15  -133.1 28.2  -113.2 67.2  -82.2 98.2  -43.2 118.1
+            0 125  43.2 118.1  82.2 98.2  113.2 67.2  133.1 28.2))
+      (pin Round[A]Pad_60_mil 1 -100 -50)
+      (pin Round[A]Pad_60_mil 2 0 50)
+      (pin Round[A]Pad_60_mil 3 100 -50)
     )
     (padstack Round[A]Pad_202_mil
       (shape (circle Front 202))
@@ -441,7 +440,7 @@
       (pins U9-7 C1-1)
     )
     (net "N-000034"
-      (pins RV5-1 R45-2)
+      (pins R45-2 RV5-1)
     )
     (net "N-000035"
       (pins U8-5 RV5-2)
@@ -471,31 +470,31 @@
       (pins U4-6 R11-2 R17-1)
     )
     (net "N-000045"
-      (pins RV3-1 R18-1)
+      (pins R18-1 RV3-1)
     )
     (net "N-000046"
-      (pins RV3-3 R10-1)
+      (pins R10-1 RV3-3)
     )
     (net "N-000048"
-      (pins RV5-3 R42-1)
+      (pins R42-1 RV5-3)
     )
     (net "N-000049"
       (pins U8-6 R57-1 R54-2)
     )
     (net "N-000050"
-      (pins RV7-1 R58-1)
+      (pins R58-1 RV7-1)
     )
     (net "N-000051"
-      (pins RV7-3 R53-1)
+      (pins R53-1 RV7-3)
     )
     (net "N-000052"
       (pins U7-7 R53-2)
     )
     (net "N-000053"
-      (pins RV1-3 R1-1)
+      (pins R1-1 RV1-3)
     )
     (net "N-000054"
-      (pins RV1-1 R5-2)
+      (pins R5-2 RV1-1)
     )
     (net "N-000055"
       (pins P6-2 R24-1)
@@ -534,7 +533,7 @@
       (pins P8-1 R50-2)
     )
     (net "N-000070"
-      (pins RV2-1 R6-2)
+      (pins R6-2 RV2-1)
     )
     (net "N-000071"
       (pins U2-5 RV2-2)
@@ -543,13 +542,13 @@
       (pins U2-6 R19-1 R16-2)
     )
     (net "N-000074"
-      (pins RV4-1 R20-1)
+      (pins R20-1 RV4-1)
     )
     (net "N-000075"
       (pins U2-2 RV4-2)
     )
     (net "N-000076"
-      (pins RV4-3 R15-1)
+      (pins R15-1 RV4-3)
     )
     (net "N-000077"
       (pins U1-7 R15-2)
@@ -576,16 +575,16 @@
       (pins P4-14 R35-2)
     )
     (net "N-000085"
-      (pins RV2-3 R4-1)
+      (pins R4-1 RV2-3)
     )
     (net "N-000086"
       (pins U6-2 RV8-2)
     )
     (net "N-000087"
-      (pins RV8-3 R55-1)
+      (pins R55-1 RV8-3)
     )
     (net "N-000088"
-      (pins RV8-1 R60-1)
+      (pins R60-1 RV8-1)
     )
     (net "N-000089"
       (pins U6-1 R60-2 R56-1)
@@ -594,10 +593,10 @@
       (pins U6-6 R59-1 R56-2)
     )
     (net "N-000092"
-      (pins RV6-1 R46-2)
+      (pins R46-2 RV6-1)
     )
     (net "N-000093"
-      (pins RV6-3 R44-1)
+      (pins R44-1 RV6-3)
     )
     (net "N-000094"
       (pins U5-1 P8-2 P8-4 P8-6 P8-8 R43-2)
@@ -744,47 +743,5 @@
     )
   )
   (wiring
-    (wire (path Front 20  1750 -1758.4  1650 -1758.4)(net GND)(type protect))
-    (wire (path Front 20  1850 -1758.4  1750 -1758.4)(net GND)(type protect))
-    (wire (path Front 20  1750 -1141.6  1650 -1141.6)(net GND)(type protect))
-    (wire (path Front 20  1850 -1141.6  1750 -1141.6)(net GND)(type protect))
-    (wire (path Front 20  1650 -3891.6  1650 -3800)(net "N-000010")(type protect))
-    (wire (path Front 20  1650 -3500  1650 -3408.4)(net "N-000011")(type protect))
-    (wire (path Front 20  1750 -3891.6  1750 -3800)(net "N-000012")(type protect))
-    (wire (path Front 20  1750 -3500  1750 -3408.4)(net "N-000013")(type protect))
-    (wire (path Front 20  1850 -3500  1850 -3408.4)(net "N-000014")(type protect))
-    (wire (path Front 20  1850 -3891.6  1850 -3800)(net "N-000015")(type protect))
-    (wire (path Front 20  1750 -1958.4  1750 -2050)(net "N-000018")(type protect))
-    (wire (path Front 20  1850 -1958.4  1850 -2050)(net "N-000020")(type protect))
-    (wire (path Front 20  1650 -2441.6  1650 -2350)(net "N-000021")(type protect))
-    (wire (path Front 20  1750 -2441.6  1750 -2350)(net "N-000023")(type protect))
-    (wire (path Front 20  1850 -2441.6  1850 -2350)(net "N-000024")(type protect))
-    (wire (path Front 20  1650 -1958.4  1650 -2050)(net "N-000030")(type protect))
-    (wire (path Front 20  1650 -1208.4  1650 -1300)(net "N-000055")(type protect))
-    (wire (path Front 20  1650 -1400  1750 -1400  1850 -1400  1950 -1400)(net "N-000056")(type protect))
-    (wire (path Front 20  1550 -1400  1525 -1375  1525 -1350  1525 -1333.4)(net "N-000056")(type protect))
-    (wire (path Front 20  1650 -1400  1550 -1400)(net "N-000056")(type protect))
-    (wire (path Front 20  1750 -1208.4  1750 -1300)(net "N-000057")(type protect))
-    (wire (path Front 20  1850 -1208.4  1850 -1300)(net "N-000058")(type protect))
-    (wire (path Front 20  1650 -1600  1650 -1691.6)(net "N-000059")(type protect))
-    (wire (path Front 20  1750 -1600  1750 -1691.6)(net "N-000060")(type protect))
-    (wire (path Front 20  1650 -1500  1550 -1500)(net "N-000061")(type protect))
-    (wire (path Front 20  1525 -1525  1525 -1566.6)(net "N-000061")(type protect))
-    (wire (path Front 20  1550 -1500  1525 -1525)(net "N-000061")(type protect))
-    (wire (path Front 20  1950 -1500  1850 -1500  1750 -1500  1650 -1500)(net "N-000061")(type protect))
-    (wire (path Front 20  1850 -1600  1850 -1691.6)(net "N-000062")(type protect))
-    (wire (path Front 20  1750 -3075  1750 -3166.6)(net "N-000064")(type protect))
-    (wire (path Front 20  1650 -2683.4  1650 -2775)(net "N-000065")(type protect))
-    (wire (path Front 20  1650 -3075  1650 -3166.6)(net "N-000066")(type protect))
-    (wire (path Front 20  1850 -3075  1850 -3166.6)(net "N-000103")(type protect))
-    (wire (path Front 20  1750 -2683.4  1750 -2775)(net "N-000104")(type protect))
-    (wire (path Front 20  1850 -2683.4  1850 -2775)(net "N-000105")(type protect))
-    (wire (path Front 20  1950 -2875  1650 -2875)(net "N-000107")(type protect))
-    (wire (path Front 20  1275 -1381.1  1275 -1300)(net in_ch1+)(type protect))
-    (wire (path Front 20  1308.4 -1266.6  1525 -1266.6)(net in_ch1+)(type protect))
-    (wire (path Front 20  1275 -1300  1308.4 -1266.6)(net in_ch1+)(type protect))
-    (wire (path Front 20  1275 -1518.9  1275 -1600)(net "in_ch1-")(type protect))
-    (wire (path Front 20  1308.4 -1633.4  1525 -1633.4)(net "in_ch1-")(type protect))
-    (wire (path Front 20  1275 -1600  1308.4 -1633.4)(net "in_ch1-")(type protect))
   )
 )

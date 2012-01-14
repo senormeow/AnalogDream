@@ -1,4 +1,4 @@
-update=Mon 05 Dec 2011 09:59:51 PM MST
+update=Fri 13 Jan 2012 08:27:40 PM MST
 version=1
 last_client=pcbnew
 [eeschema]
@@ -105,3 +105,4 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=custom
+LibName12=visgence

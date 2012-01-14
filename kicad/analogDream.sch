@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 17 Dec 2011 09:17:39 PM MST
+EESchema Schematic File Version 2  date Fri 13 Jan 2012 09:39:40 PM MST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr User 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "Analog Dream Board"
-Date "18 dec 2011"
+Date "14 jan 2012"
 Rev ""
 Comp "Visgence Technologies"
 Comment1 ""
@@ -1489,7 +1489,7 @@ L R R72
 U 1 1 4ED2B253
 P 10500 5850
 F 0 "R72" H 10500 5950 50  0000 C CNN
-F 1 "599" V 10500 5800 50  0000 C CNN
+F 1 "499" V 10500 5800 50  0000 C CNN
 	1    10500 5850
 	-1   0    0    1   
 $EndComp
@@ -1687,7 +1687,7 @@ L R R32
 U 1 1 4ED2B23D
 P 10500 2950
 F 0 "R32" H 10500 3050 50  0000 C CNN
-F 1 "599" V 10500 2900 50  0000 C CNN
+F 1 "499" V 10500 2900 50  0000 C CNN
 	1    10500 2950
 	-1   0    0    1   
 $EndComp
@@ -1988,7 +1988,7 @@ L R R79
 U 1 1 4ED2A715
 P 3000 5950
 F 0 "R79" H 3000 6050 50  0000 C CNN
-F 1 "599" V 3000 5900 50  0000 C CNN
+F 1 "499" V 3000 5900 50  0000 C CNN
 	1    3000 5950
 	-1   0    0    1   
 $EndComp
@@ -2213,7 +2213,7 @@ L R R39
 U 1 1 4ECF11D2
 P 3000 3050
 F 0 "R39" H 3000 3150 50  0000 C CNN
-F 1 "599" V 3000 3000 50  0000 C CNN
+F 1 "499" V 3000 3000 50  0000 C CNN
 	1    3000 3050
 	-1   0    0    1   
 $EndComp

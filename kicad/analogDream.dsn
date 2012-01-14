@@ -175,7 +175,10 @@
       (place RV5 4375 -3825 front 270 (PN 10k))
       (place RV6 4375 -3100 front 270 (PN 10k))
       (place RV7 4375 -3475 front 270 (PN 10k))
-      (place RV8 4375 -2750 front 90 (PN 10k))
+      (place RV8 4375 -2750 front 270 (PN 10k))
+    )
+    (component ""
+      (place G1 1372.5 -3990 front 0 (PN LOGO))
     )
   )
   (library
@@ -287,6 +290,8 @@
       (pin Round[A]Pad_60_mil 1 -100 -50)
       (pin Round[A]Pad_60_mil 2 0 50)
       (pin Round[A]Pad_60_mil 3 100 -50)
+    )
+    (image ""
     )
     (padstack Round[A]Pad_202_mil
       (shape (circle Front 202))

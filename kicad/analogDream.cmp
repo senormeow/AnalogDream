@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-12-21 BZR 3253)-stable date = Fri 13 Jan 2012 06:49:43 PM MST
+Cmp-Mod V01 Created by CvPcb (2011-12-21 BZR 3253)-stable date = Fri 13 Jan 2012 09:40:06 PM MST
 
 BeginCmp
 TimeStamp = /4ED43953;
@@ -409,7 +409,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4ED2B23D;
 Reference = R32;
-ValeurCmp = 599;
+ValeurCmp = 499;
 IdModule  = 0603-RES;
 EndCmp
 
@@ -458,7 +458,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4ECF11D2;
 Reference = R39;
-ValeurCmp = 599;
+ValeurCmp = 499;
 IdModule  = 0603-RES;
 EndCmp
 
@@ -689,7 +689,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4ED2B253;
 Reference = R72;
-ValeurCmp = 599;
+ValeurCmp = 499;
 IdModule  = 0603-RES;
 EndCmp
 
@@ -738,7 +738,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4ED2A715;
 Reference = R79;
-ValeurCmp = 599;
+ValeurCmp = 499;
 IdModule  = 0603-RES;
 EndCmp
 

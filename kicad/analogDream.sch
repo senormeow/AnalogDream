@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 13 Jan 2012 09:39:40 PM MST
+EESchema Schematic File Version 2  date 3/8/2012 1:42:21 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr User 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "Analog Dream Board"
-Date "14 jan 2012"
+Date "8 mar 2012"
 Rev ""
 Comp "Visgence Technologies"
 Comment1 ""
@@ -736,7 +736,7 @@ L CONN_2 PC9
 U 1 1 4EED65E3
 P 5100 9250
 F 0 "PC9" V 5050 9250 40  0000 C CNN
-F 1 "-V_+V" V 5150 9250 40  0000 C CNN
+F 1 "+V_-V" V 5150 9250 40  0000 C CNN
 	1    5100 9250
 	-1   0    0    -1  
 $EndComp
@@ -756,7 +756,7 @@ L CONN_2 PC8
 U 1 1 4EED655E
 P 5100 8700
 F 0 "PC8" V 5050 8700 40  0000 C CNN
-F 1 "GND_AREF" V 5150 8700 40  0000 C CNN
+F 1 "AREF_GND" V 5150 8700 40  0000 C CNN
 	1    5100 8700
 	-1   0    0    -1  
 $EndComp
@@ -900,7 +900,7 @@ L CONN_2 PC5
 U 1 1 4ED831F6
 P 5100 8250
 F 0 "PC5" V 5050 8250 40  0000 C CNN
-F 1 "GND_5V" V 5150 8250 40  0000 C CNN
+F 1 "5V_GND" V 5150 8250 40  0000 C CNN
 	1    5100 8250
 	-1   0    0    -1  
 $EndComp

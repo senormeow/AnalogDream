@@ -1,4 +1,4 @@
-update=Fri 13 Jan 2012 08:27:40 PM MST
+update=4/6/2012 12:50:02 AM
 version=1
 last_client=pcbnew
 [eeschema]
@@ -77,9 +77,9 @@ EquName1=devcms
 version=1
 [pcbnew]
 version=1
-PadDrlX=453
-PadDimH=800
-PadDimV=800
+PadDrlX=1160
+PadDimH=2020
+PadDimV=2020
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -87,10 +87,10 @@ TxtModV=600
 TxtModH=600
 TxtModW=120
 VEgarde=10
-DrawLar=150
+DrawLar=100
 EdgeLar=150
 TxtLar=120
-MSegLar=150
+MSegLar=100
 LastNetListRead=analogDream.net
 [pcbnew/libraries]
 LibDir=

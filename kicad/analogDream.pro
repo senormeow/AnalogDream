@@ -1,6 +1,6 @@
-update=4/6/2012 12:50:02 AM
+update=4/6/2012 2:12:04 AM
 version=1
-last_client=pcbnew
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -73,8 +73,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [pcbnew]
 version=1
 PadDrlX=1160
@@ -106,3 +104,5 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=custom
 LibName12=visgence
+[general]
+version=1

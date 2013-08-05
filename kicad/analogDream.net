@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  8/4/2013 8:09:05 PM
+# EESchema Netlist Version 1.1 created  8/4/2013 8:11:01 PM
 (
  ( /4ED2A584 $noname  R34 18k {Lib=R}
   (    1 N-000054 )
@@ -178,8 +178,8 @@
   (    2 GND )
  )
  ( /4ED82FC2 $noname  PC1 Ch1 {Lib=CONN_2}
-  (    1 in_ch1+ )
-  (    2 in_ch1- )
+  (    1 in_ch1- )
+  (    2 in_ch1+ )
  )
  ( /51FEE48A $noname  SHIELD1 ARDUINO_SHIELD {Lib=ARDUINO_SHIELD}
   (    0 ? )
@@ -438,16 +438,16 @@ Net 6 "in_ch1+" "in_ch1+"
  R34 2
  C2 2
  P6 8
- PC1 1
+ PC1 2
 Net 7 "GND" "GND"
  R6 1
  SHIELD1 GND1
- SHIELD1 GND2
+ C5 2
  C4 1
  D1 2
  U1 5
- C5 2
  U2 11
+ SHIELD1 GND2
 Net 8 "+5V" "+5V"
  SHIELD1 5V
  U1 8
@@ -457,7 +457,7 @@ Net 8 "+5V" "+5V"
  C4 2
  R4 2
 Net 9 "in_ch1-" "in_ch1-"
- PC1 2
+ PC1 1
  R3 1
  C2 1
  P2 7

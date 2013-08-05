@@ -778,9 +778,9 @@ F 3 "" H 6850 3500 60  0001 C CNN
 	1    6850 3500
 	-1   0    0    -1  
 $EndComp
-Text GLabel 7500 3400 2    60   Input ~ 0
-in_ch1+
 Text GLabel 7500 3600 2    60   Input ~ 0
+in_ch1+
+Text GLabel 7500 3400 2    60   Input ~ 0
 in_ch1-
 Wire Wire Line
 	7200 3600 7500 3600

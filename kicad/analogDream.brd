@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 8/4/2013 8:10:05 PM
+PCBNEW-BOARD Version 2 date 8/4/2013 8:11:37 PM
 
 # Created by Pcbnew(2013-07-07 BZR 4022)-stable
 
@@ -1914,14 +1914,14 @@ $PAD
 Sh "1" R 2.54 2.54 0 0 900
 Dr 1.524 0 0
 At STD N 00E0FFFF
-Ne 34 "in_ch1+"
+Ne 35 "in_ch1-"
 Po -2.54 0
 $EndPAD
 $PAD
 Sh "2" C 2.54 2.54 0 0 900
 Dr 1.524 0 0
 At STD N 00E0FFFF
-Ne 35 "in_ch1-"
+Ne 34 "in_ch1+"
 Po 2.54 0
 $EndPAD
 $SHAPE3D

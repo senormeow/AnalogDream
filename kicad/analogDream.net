@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  8/4/2013 5:11:09 PM
+# EESchema Netlist Version 1.1 created  8/4/2013 8:09:05 PM
 (
  ( /4ED2A584 $noname  R34 18k {Lib=R}
   (    1 N-000054 )
@@ -148,7 +148,7 @@
   (    1 2.5v )
   (    2 N-000054 )
  )
- ( /51FEDDFB $noname  U2 TL074 {Lib=TL074}
+ ( /51FEDDFB $noname  U2 AD8609 {Lib=TL074}
   (    1 N-000041 )
   (    2 N-000002 )
   (    3 2.5v )
